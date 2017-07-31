@@ -1,4 +1,4 @@
-React Boilerplate
+React Lightweight Boilerplate
 =====================
 
 A minimal and light dev environment for ReactJS.

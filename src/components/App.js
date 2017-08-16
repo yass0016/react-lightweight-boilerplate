@@ -1,16 +1,15 @@
-import React from 'react';
+import React, { Component} from 'react';
 
-import WordList from '../containers/WordList';
-import WordDetails from '../containers/WordDetails';
-
-const App = () => {
-  return <div className="container">
-    <h2>Words:</h2>
-    <hr/>
-    <WordList />
-    <hr/>
-    <WordDetails />
-  </div>;
-};
+class App extends Component {
+  render() {
+    return (
+      <div id="">
+        <div className="">
+          {this.props.children}
+        </div>
+      </div>
+    );
+  }
+}
 
 export default App;

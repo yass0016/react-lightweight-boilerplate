@@ -1,2 +1,9 @@
 .box {
   border: 1px solid #000; }
+
+.text {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 100px;
+  width: 100%; }
